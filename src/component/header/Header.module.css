@@ -1,0 +1,34 @@
+.headers{
+    margin: 0;
+    padding: 2rem;
+
+    text-align: center;
+    height: 2rem; 
+
+    background:teal;
+    display: grid;
+    grid-template-columns: 2fr 2fr 6fr 3fr 1fr;
+
+   
+    grid-area:headers;
+}
+
+.logo{
+   
+
+}
+.link{
+  
+    
+}
+.search{
+ 
+   
+}
+.authorization{
+
+}
+
+.setings{
+
+}

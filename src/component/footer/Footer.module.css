@@ -1,0 +1,60 @@
+
+.footer_wraper{
+    grid-area: footer;
+    list-style-type: none;
+/*    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100hv; 
+      
+*/
+
+
+    margin: 0;
+	padding: 0;
+
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: 
+    'img linc'
+    'meta link_app';
+
+    background: cadetblue;
+
+    padding-top: 12px;
+    padding-right: 30px;
+  
+}
+.img_logo{
+grid-area:img ;
+}
+.sub_linc{
+    
+    
+    grid-area:linc ;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+   
+}
+.sub_linc il{
+    list-style-type: none;
+}
+.faq{
+
+}
+.about{
+
+}
+.community{
+
+}
+.sub_meta{
+    grid-area:meta ;
+
+}
+.sub_link_app{
+    grid-area:link_app ;
+    
+}

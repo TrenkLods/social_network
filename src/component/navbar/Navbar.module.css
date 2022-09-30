@@ -1,0 +1,10 @@
+.navbar{
+    margin: 0;
+    padding: 3rem;
+    text-align: center;
+
+    grid-area:navbar;
+
+
+    background: lightblue;
+}
