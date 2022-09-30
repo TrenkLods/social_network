@@ -1,0 +1,32 @@
+.create_post{
+    display: grid;
+grid-template-columns: 2fr 2fr;
+grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: 
+    'label_post label_post'
+    'input_dare input_dare'
+    'add_post preview_post';
+
+}
+.label_post{
+grid-area: label_post;
+}
+.input_date{
+    grid-area: input_dare;
+
+    
+    width: 40rem;
+    height: 5rem;
+}
+.add_post{
+    grid-area: add_post;
+
+    width: 9rem;
+    height: 2rem;
+    
+}
+.preview_post{
+    width: 9rem;
+    height: 2rem;
+    grid-area: preview_post;
+}

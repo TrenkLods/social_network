@@ -1,0 +1,60 @@
+.post{
+    margin: 1rem;
+    padding:2rem;
+    background: rgb(122, 145, 145);
+border-radius: 15px;
+
+    
+    display: grid;
+    grid-template-columns: 1fr 6fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'post_img user '
+    'post_img  post_content '
+    '- post_content '
+    'addition_date addition_date';
+}
+.post img{
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    grid-area:post_img ;
+    
+}
+.user{
+    grid-area:user ;
+
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+
+    background: rgb(215, 230, 230);
+    border-radius: 5rem;
+    height: 2rem;
+    width: 6rem;
+    
+}
+.post_content{
+    padding: 1rem;
+    grid-area:post_content;
+
+    background: rgb(178, 196, 196);
+    border-radius: 15px;
+}
+
+.addition_date{
+   padding-top: 1rem;
+    display: flex;
+    
+    grid-area:addition_date ;
+}
+.like{
+    padding:1rem;
+    
+    
+}
+.coments{
+    background: darkgrey;
+    border-radius: 3rem;
+    padding:1rem;
+    width: 20rem;
+}

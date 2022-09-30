@@ -5,18 +5,28 @@ import Header from './component/header/Header';
 import Navbar from './component/navbar/Navbar';
 import ContentComponents from './component/content/ContentComponents';
 
+
+import { BrowserRouter as Router } from 'react-router-dom';
+
+
+
 function App() {
+
   return (
+    <>  <Router>
     <div className={s.App}>
-      
-        
-          <Header />
+     
+        <Header />
           <Navbar />
           <ContentComponents />
           <Footer />
+      
+      
+        
         
       
     </div>
+    </Router></>
   );
 }
 

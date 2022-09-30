@@ -1,11 +1,22 @@
-import React from "react";
-import Profile from "../pages/profile/Profile";
-import s from'./ContentComponents.module.css'
+import React from "react"
+import Dialogs from "../pages/dialogs/Dialogs"
+import Profile from "../pages/profile/Profile"
 
-const ContentComponents=()=>{
-    return(
+
+
+import { Route, Routes} from 'react-router-dom'
+
+const ContentComponents = () => {
+    return (
         <div>
-            <Profile/>
+
+            <Routes>
+            <Route path='/profile' element={ <Profile />}/>
+            <Route path='/dialogs' element={<Dialogs />}/>
+            <Route exact path="/"> <Profile /> </Route>
+                
+            </Routes>
+
         </div>
     )
 }
