@@ -6,14 +6,14 @@ import Navbar from './component/navbar/Navbar';
 import ContentComponents from './component/content/ContentComponents';
 
 
-import { BrowserRouter as Router } from 'react-router-dom';
+
 
 
 
 function App() {
 
   return (
-    <>  <Router>
+    <>  
     <div className={s.App}>
      
         <Header />
@@ -26,7 +26,7 @@ function App() {
         
       
     </div>
-    </Router></>
+    </>
   );
 }
 
