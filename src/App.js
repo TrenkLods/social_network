@@ -1,3 +1,4 @@
+import React from "react";
 
 import s from './App.module.css';
 import Footer from '../src/component/footer/Footer'
@@ -6,28 +7,17 @@ import Navbar from './component/navbar/Navbar';
 import ContentComponents from './component/content/ContentComponents';
 
 
-
-
-
-
 function App() {
 
   return (
-    <>  
     <div className={s.App}>
-     
-        <Header />
-          <Navbar />
-          <ContentComponents />
-          <Footer />
-      
-      
-        
-        
-      
+
+      <Header />
+      <ContentComponents/>
+      <Navbar />
+      <Footer />
+
     </div>
-    </>
   );
 }
-
 export default App;
